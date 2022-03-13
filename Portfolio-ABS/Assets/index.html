@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type="text/css" href="./design.css" />
+            <link rel="stylesheet" type="text/css" href="./reset.css" />
+
+            <title>Portafolio</title>
+        </head>
+
+        <body>
+            <header>
+                <img src="./Logo.portafolio.png" alt="Alex-Header" class="header">
+                <nav>
+                    <ul>
+                      <li><a href="#portafolio">Home</a></li>
+                      <li><a href="#about">About me</a></li>
+                      <li><a href="#contact">Contact Me</a></li>
+                      <li><a href="https://github.com/AlejandroBahSan/">Resume</a></li>
+                    </ul>
+                </nav>
+            </header>
+           
+                       
+            <section class="home-area">
+                <div class="container">
+                    <h1 class="Page-Title">
+                        Portafolio 
+                        <span>Alejandro Bahena</span>
+                    </h1>
+                    <a href="#work" class="button button-one">My Work</a>
+                </div>
+            </section>
+
+        <div class="container">
+            <section id="about" class="about">
+                <div class="home-about-texbox">
+                    <h1>Who I am</h1>
+                        <p>My name is <strong>Alejandro Bahena</strong>: Welcome to my portafolio page, 
+                        in this page you will find a variety of different projects that I have developed. 
+                         I am sure that one of them would be helpful for one of those great ideas that you have  to implement
+                         for your company web page, so check it out! If you want to see more, please <strong>go to my profile.</strong> 
+                         <a target="_blank" href="https://github.com/AlejandroBahSan/">"Github"</a> </p>
+                         
+                </div>
+            </section>  
+        </div>
+            <section id="work" class="portfolio">
+                <h1>Some of my work.</h1>
+
+                <!-- Portafolio Item 01 -->
+                <figure class="port-alone">
+                    <img class="coder" src="./CodeRefactor.jpg" alt="item-01" >
+                    <figcation class="port-desc1">
+                        <p>CodeRefactor</p>
+                        <a target="_blank" href="https://alejandrobahsan.github.io/CodeRefactor-ABS/" class="button button-accent button-small">Project Details</a>
+                    </figcation>
+                </figure>
+
+                <!-- Portafolio Item 02 -->
+                <figure class="port-item">
+                    <img src="./Cheat-Sheet.jpg" alt="item-02">
+                    <figcation class="port-desc">
+                        <p>Cheat Sheet</p>
+                        <a target="_blank" href="https://alejandrobahsan.github.io/Cheat-Sheet/" class="button button-accent button-small">Project Details</a>
+                    </figcation>
+                </figure>
+
+                <!-- Portafolio Item 03 -->
+                <figure class="port-item">
+                    <img src="./logo.png" alt="item-03">
+                    <figcation class="port-desc">
+                        <p>Coming Soon</p>
+                        <a href="" class="button button-accent button-small">Project Details</a>
+                    </figcation>
+                </figure class="port-item">
+
+                <!-- Portafolio Item 04 -->
+                <figure class="port-item">
+                    <img src="./logo.png" alt="item-04">
+                    <figcation class="port-desc">
+                        <p>Coming Soon</p>
+                        <a href="" class="button button-accent button-small">Project Details</a>
+                    </figcation>
+                </figure>
+
+                <!-- Portafolio Item 05 -->
+                <figure class="port-item">
+                    <img src="./logo.png" alt="item-05">
+                    <figcation class="port-desc">
+                        <p>Coming Soon</p>
+                        <a href="" class="button button-accent button-small">Project Details</a>
+                    </figcation>
+                </figure>
+
+
+                <footer>
+                    <div class="footer">
+                        <p>
+                        Contact me.
+                        </p>
+                    
+                    </div>
+                    <div class="contact" id="contact" >   
+                        <ul class="unstyled-list">
+                            <li><a href="https://github.com/AlejandroBahSan/"><strong>Github</strong></a></li>
+                            <li><a href = "mailto: alejandro.bahsan@gmail.com"><strong>Email</strong></a></li>
+                            <li><strong>Phone</strong></li>
+                        </ul>
+                    </div> 
+                </footer>
+
+            </section>
+
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+            <script>
+                var mybutton = document.getElementById("myBtn");
+                window.onscroll = function() {scrollFunction()};
+                function scrollFunction() {
+                  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 300) {
+                    mybutton.style.display = "block";
+                  } 
+                  else {
+                    mybutton.style.display = "none";
+                  }
+                }
+                function topFunction() {
+                  document.body.scrollTop = 0;
+                  document.documentElement.scrollTop = 0;
+                }
+                </script>
+        </body>
+
+</html>
